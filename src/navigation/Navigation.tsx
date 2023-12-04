@@ -16,7 +16,7 @@ function Navigation() {
                 <Drawer.Screen name="Chat" options={{ title: "Chat" }} component={Chat} />
                 <Drawer.Screen name="AboutDepartment" options={{ title: "About the Department" }} component={AboutDepartment} />
                 <Drawer.Screen name="LastNews" options={{ title: "Latest News" }} component={LastNews} />
-                <Drawer.Screen name="Other" options={{ title: "AboutMe" }}>
+                <Drawer.Screen name="Other" options={{ title: "About Me" }}>
 
                     {
                         props => <BottomNavigation />

@@ -87,20 +87,19 @@ const style = StyleSheet.create({
     marginBottom: -20
   },
   answerComment: {
-    backgroundColor: color.primary,
+    backgroundColor: color.magenta,
     paddingBottom: 10,
     maxHeight: 100
 
   },
   comment: {
     marginHorizontal: 10,
-    backgroundColor: color.light
+    backgroundColor: color.Hex
   },
   answerTo: {
     marginVertical: 6,
     gap: 6
-  }
-
+  },
 });
 
 export default Comment;

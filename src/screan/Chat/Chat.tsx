@@ -1,8 +1,6 @@
 import React from "react";
 import { ScrollView, View } from "react-native";
 import Comment from "../../component/Comment/Comment";
-import { white } from "react-native-paper/lib/typescript/styles/themes/v2/colors";
-
 export interface User {
   id: number;
   avatar: string;

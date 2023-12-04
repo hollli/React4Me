@@ -8,7 +8,7 @@ const Tab = createBottomTabNavigator();
 function BottomNavigation() {
     return (
         <Tab.Navigator initialRouteName={"AboutMe"}>
-            <Tab.Screen name="AboutMe" component={AboutMe} options={{
+            <Tab.Screen name="About Me" component={AboutMe} options={{
                 headerShown: false,
                 tabBarIcon: () => (<Icon name={"envelope-open-text"} />)
             }} />

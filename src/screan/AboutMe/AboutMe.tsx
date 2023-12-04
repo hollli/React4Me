@@ -8,7 +8,7 @@ function AboutMe() {
           <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
               <Text style={{ paddingTop: 20,fontSize:30, textAlign: "center", textAlignVertical: "center" }} variant="titleMedium">
                   Veretilnyk Vitalii</Text>
-              <Image style={{ borderRadius:15, width: 350, height: 500 }}
+              <Image style={{ borderRadius:15, width: 321, height: 500 }}
                      source={require("./../../img/avatar.png")} />
               <Text style={{ paddingBottom: 10 }}
                   variant="titleMedium">

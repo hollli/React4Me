@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, ScrollView, View } from "react-native";
+import { ScrollView } from "react-native";
 import { Text } from "react-native-paper";
 
 function AboutDepartment() {
@@ -8,8 +8,7 @@ function AboutDepartment() {
         paddingHorizontal: 16,
         marginVertical: 30
       }}>
-        <Text variant="headlineLarge">About Department</Text>
-        <Text style={{ marginBottom: 16 }} variant="headlineMedium">Department "Software of automated systems"</Text>
+        <Text  style={{ marginBottom: 16 }}variant="headlineLarge">Department "Software of automated systems"</Text>
         <Text variant="headlineSmall">
           The "Software support of automated systems" department was created in 1998 as a result of the reorganization of
           the "Computer Engineering" department and the organization of the FITIS faculty to which it belongs. The
